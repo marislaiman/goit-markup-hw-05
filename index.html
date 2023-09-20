@@ -63,7 +63,9 @@
       <section class="first-page-section">
         <div class="container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="page-button">Order Service</button>
+          <button class="page-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -514,7 +516,7 @@
         </div>
 
         <div class="footer-social-media">
-          <p class="social-media-title">Social media</p>
+          <p class="footer-subtitle">Social media</p>
 
           <ul class="social-media-list">
             <li class="icons-social-media">
@@ -547,7 +549,29 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe">
+          <p class="footer-subtitle">Subscribe</p>
+
+          <form>
+            <input type="email" name="username-email" placeholder="E-mail" />
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="icon-subscribe-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe-btn"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal="">
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>X</button>
+
+        <p>Leave your contacts and we will call you back</p>
+      </div>
+    </div>
   </body>
 </html>
