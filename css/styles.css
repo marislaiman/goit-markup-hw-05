@@ -695,9 +695,6 @@ img {
 #user-privacy:checked + .checkbox .checkbox-span {
   background-color: #404bbf;
   border: none;
-}
-
-#user-privacy:checked + .checkbox .checkbox-span .icon-checkbox use {
   fill: #f4f4fd;
 }
 
